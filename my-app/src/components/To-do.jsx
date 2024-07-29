@@ -1,5 +1,5 @@
 import react from "react";
-const To_do = () => {
+function To_do() {
   const toDoList = ["Milk", "Bread", "Cheese", "Floor", "Oil", "Eggs"];
   let arr = toDoList.map((item) => {
     return (
@@ -14,5 +14,5 @@ const To_do = () => {
       <ul>{arr}</ul>
     </div>
   );
-};
+}
 export default To_do;
