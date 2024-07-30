@@ -6,10 +6,10 @@ function CreatTime() {
   let minutes = date_ob.getMinutes();
   let seconds = date_ob.getSeconds();
   return (
-    <>
+    <div className="creat-name">
       <h2>clock</h2>
       {hours}:{minutes}:{seconds.toString().padStart(2, "0")}
-    </>
+    </div>
   );
 }
 

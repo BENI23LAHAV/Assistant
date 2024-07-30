@@ -10,7 +10,7 @@ function To_do() {
     );
   });
   return (
-    <div>
+    <div className="to-do">
       <ul>{arr}</ul>
     </div>
   );
